@@ -159,3 +159,24 @@ lapply(v,nchar) # looping nt formatted  no of characters
   input <- data.frame(height, weight, mass)
   input
   print(input$height)
+  
+  fib <- function(){
+  fibonacci =integer(10)
+  fibonacci[1] =0
+  fibonacci[2] =1
+  for(i in 3:10)
+  {
+    fibonacci[i]  =fibonacci[i-1]+fibonacci[i-2]
+  }
+  cat(" o/p is",fibonacci[10])
+  }
+  
+  
+  v <- 20:50
+  print(v)
+  v1 <- seq(20,50,by=2)
+  print(v1)
+  
+  
+  
+  fib()
